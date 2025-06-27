@@ -1,8 +1,8 @@
 import argparse
 from pathlib import Path
 
-FILE_EXTENSIONS = ['.py', '.c', '.h', '.cpp']
-EXCLUDE_FOLDERS = ['venv', '.venv']
+FILE_EXTENSIONS = ['.py', '.c', '.h', '.cpp', '.ino']
+EXCLUDE_FOLDERS = ['venv', '.venv', '.pio']
 FILE_NAMES_EXCLUDE = []
 
 
